@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-17T19:33:37 IST" name="Suite" finished-at="2024-12-17T19:35:50 IST" duration-ms="133148">
+    <groups>
+      <group name="PL1">
+        <method signature="RestAssured_TestCases_PL1.getAllStocksTest()[pri:1, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getAllStocksTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getMainStoreTest()[pri:2, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getMainStoreTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getRequisitionByDateRangeTest()[pri:3, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getRequisitionByDateRangeTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getPatientConsumptionsTest()[pri:4, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getPatientConsumptionsTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getPatientConsumptionInfoTest()[pri:5, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getPatientConsumptionInfoTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getBillingSchemeBySchemeIdTest()[pri:6, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getBillingSchemeBySchemeIdTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getBillingSummaryByPatientIdTest()[pri:7, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getBillingSummaryByPatientIdTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getConsumptionsListOfAPatientByIdTest()[pri:8, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getConsumptionsListOfAPatientByIdTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getReturnConsumptionsListTest()[pri:9, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getReturnConsumptionsListTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getDischargedPatientsTest()[pri:10, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getDischargedPatientsTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getAdmittedPatientsTest()[pri:11, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getAdmittedPatientsTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.searchIpdPatientByPatientIdTest()[pri:12, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="searchIpdPatientByPatientIdTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getPatientProvisionalInfoTest()[pri:13, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getPatientProvisionalInfoTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getProvisionalItemsListByPatientIdAndSchemeIdTest()[pri:14, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getProvisionalItemsListByPatientIdAndSchemeIdTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getInvoicesByDateRangeTest()[pri:15, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getInvoicesByDateRangeTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getProviderListTest()[pri:16, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getProviderListTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getUsersListTest()[pri:17, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getUsersListTest" class="testcases.RestAssured_TestCases_PL1"/>
+        <method signature="RestAssured_TestCases_PL1.getCurrentFiscalYearDetailsTest()[pri:18, instance:testcases.RestAssured_TestCases_PL1@44040454]" name="getCurrentFiscalYearDetailsTest" class="testcases.RestAssured_TestCases_PL1"/>
+      </group> <!-- PL1 -->
+    </groups>
+    <test started-at="2024-12-17T19:33:37 IST" name="Test" finished-at="2024-12-17T19:35:50 IST" duration-ms="133148">
+      <class name="testcases.RestAssured_TestCases_PL1">
+        <test-method signature="getAllStocksTest()[pri:1, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:33:37 IST" name="getAllStocksTest" description="1. Send a GET request to get list of stocks
+2. Validate that all the ItemId, ItemName, and GenericName are not null.
+3. Verify the response status code is 200." finished-at="2024-12-17T19:34:07 IST" duration-ms="29443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllStocksTest -->
+        <test-method signature="getMainStoreTest()[pri:2, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:12 IST" name="getMainStoreTest" description="1. Send a GET request to get details of main store
+2. Validate that all StoreId are not null.
+3. Verify the response status code is 200." finished-at="2024-12-17T19:34:13 IST" duration-ms="892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMainStoreTest -->
+        <test-method signature="getRequisitionByDateRangeTest()[pri:3, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:16 IST" name="getRequisitionByDateRangeTest" description="1. Send a GET request to get requisition list by date range
+2. Validate that RequisitionNo, RequisitionStatus are not null and requisitionIds are unique.
+3. Verify the response status code is 200." finished-at="2024-12-17T19:34:19 IST" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequisitionByDateRangeTest -->
+        <test-method signature="getPatientConsumptionsTest()[pri:4, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:22 IST" name="getPatientConsumptionsTest" description="1. Send a GET request to get patient consumptions list
+2. Validate that all PatientId, HospitalNo, and PatientVisitId are not null.
+3. Verify the response status code is 200." finished-at="2024-12-17T19:34:23 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPatientConsumptionsTest -->
+        <test-method signature="getPatientConsumptionInfoTest()[pri:5, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:26 IST" name="getPatientConsumptionInfoTest" description="1. Send a GET request to get patient consumption information
+2. Validate that PatientName, HospitalNo, and StoreId are not null.
+3. Verify the response status code is 200." finished-at="2024-12-17T19:34:28 IST" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPatientConsumptionInfoTest -->
+        <test-method signature="getBillingSchemeBySchemeIdTest()[pri:6, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:31 IST" name="getBillingSchemeBySchemeIdTest" description="Retrieve and validate Billing Scheme By Scheme ID." finished-at="2024-12-17T19:34:32 IST" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBillingSchemeBySchemeIdTest -->
+        <test-method signature="getBillingSummaryByPatientIdTest()[pri:7, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:35 IST" name="getBillingSummaryByPatientIdTest" description="Retrieve and validate Billing Summary By Patient ID." finished-at="2024-12-17T19:34:36 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBillingSummaryByPatientIdTest -->
+        <test-method signature="getConsumptionsListOfAPatientByIdTest()[pri:8, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:39 IST" name="getConsumptionsListOfAPatientByIdTest" description="Retrieve and validate Patient Consumptions List By Patient ID." finished-at="2024-12-17T19:34:40 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getConsumptionsListOfAPatientByIdTest -->
+        <test-method signature="getReturnConsumptionsListTest()[pri:9, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:43 IST" name="getReturnConsumptionsListTest" description="Retrieve and validate the return consumptions list." finished-at="2024-12-17T19:34:44 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReturnConsumptionsListTest -->
+        <test-method signature="getDischargedPatientsTest()[pri:10, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:47 IST" name="getDischargedPatientsTest" description="Retrieve and validate the list of discharged patients." finished-at="2024-12-17T19:34:48 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDischargedPatientsTest -->
+        <test-method signature="getAdmittedPatientsTest()[pri:11, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:51 IST" name="getAdmittedPatientsTest" description="Retrieve and validate the list of admitted patients." finished-at="2024-12-17T19:34:55 IST" duration-ms="3792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAdmittedPatientsTest -->
+        <test-method signature="searchIpdPatientByPatientIdTest()[pri:12, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:34:58 IST" name="searchIpdPatientByPatientIdTest" description="Retrieve and validate IPD patients by patient name." finished-at="2024-12-17T19:34:59 IST" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchIpdPatientByPatientIdTest -->
+        <test-method signature="getPatientProvisionalInfoTest()[pri:13, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:35:02 IST" name="getPatientProvisionalInfoTest" description="Retrieve and validate patients&#039; provisional information." finished-at="2024-12-17T19:35:03 IST" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPatientProvisionalInfoTest -->
+        <test-method signature="getProvisionalItemsListByPatientIdAndSchemeIdTest()[pri:14, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:35:06 IST" name="getProvisionalItemsListByPatientIdAndSchemeIdTest" description="Retrieve and validate provisional items list for a specific patient and scheme." finished-at="2024-12-17T19:35:08 IST" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProvisionalItemsListByPatientIdAndSchemeIdTest -->
+        <test-method signature="getInvoicesByDateRangeTest()[pri:15, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:35:11 IST" name="getInvoicesByDateRangeTest" description="Retrieve and validate billing invoices within a specific date range." finished-at="2024-12-17T19:35:34 IST" duration-ms="22482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInvoicesByDateRangeTest -->
+        <test-method signature="getProviderListTest()[pri:16, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:35:38 IST" name="getProviderListTest" description="Retrieve and validate the list of providers." finished-at="2024-12-17T19:35:39 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProviderListTest -->
+        <test-method signature="getUsersListTest()[pri:17, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:35:42 IST" name="getUsersListTest" description="Retrieve and validate the list of users." finished-at="2024-12-17T19:35:43 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersListTest -->
+        <test-method signature="getCurrentFiscalYearDetailsTest()[pri:18, instance:testcases.RestAssured_TestCases_PL1@44040454]" started-at="2024-12-17T19:35:46 IST" name="getCurrentFiscalYearDetailsTest" description="Retrieve and validate the current fiscal year details." finished-at="2024-12-17T19:35:47 IST" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentFiscalYearDetailsTest -->
+      </class> <!-- testcases.RestAssured_TestCases_PL1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
